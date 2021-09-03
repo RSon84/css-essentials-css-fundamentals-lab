@@ -6,45 +6,45 @@ body {
 header {
   text-align: center;
 }
-section {
+/* section {
   text-align: center;
-}
-section figure img {
+} */
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+ 
 }
-section figure figcaption {
+/* section figure figcaption {
   font-size: 11px;
+} */
+
+figcaption {
+  text-align: center;
+  font-size: 8px;
 }
 nav a {
   padding: 0 10px;
-  background-color: rgba(187, 187, 187, 0.349);
+  background-color: #bbb;
 }
-section p {
+#featured-property p {
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 800px
-}
-section p.blocktext {
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
   width: 800px
 }
 
-footer section div {
-  float: left;
-  list-style-type: none;
-  line-height: normal;
-  height: auto;
-  border-right: none;
-  padding: 0;
+#details {
+  
+display: block;
+text-align: center;
 }
 
-footer section div {
+#details div {
   background-color: red;
   text-align: center;
+  float: left;
   width: 25%;
 }
 
