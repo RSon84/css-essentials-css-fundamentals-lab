@@ -3,3 +3,48 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+}
+section {
+  text-align: center;
+}
+section figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+section figure figcaption {
+  font-size: 11px;
+}
+nav a {
+  padding: 0 10px;
+  background-color: rgba(187, 187, 187, 0.349);
+}
+section p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px
+}
+section p.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px
+}
+
+footer section div {
+  float: left;
+  list-style-type: none;
+  line-height: normal;
+  height: auto;
+  border-right: none;
+  padding: 0;
+}
+
+footer section div {
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
+
